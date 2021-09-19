@@ -1,4 +1,9 @@
-- name: hugo-deploy
+- name: Hugo setup
   # You may pin to the exact commit or the version.
-  # uses: reuixiy/hugo-deploy@1b842be11ebb0824630ed442a2e2097e31f5d6d0
-  uses: reuixiy/hugo-deploy@v1
+  # uses: peaceiris/actions-hugo@2e89aa66d0093e4cd14751b3028fc1a179452c2e
+  uses: peaceiris/actions-hugo@v2.4.13
+  with:
+    # The Hugo version to download (if necessary) and use. Example: 0.58.2
+    hugo-version: # optional, default is latest
+    # Download (if necessary) and use Hugo extended version. Example: true
+    extended: # optional, default is false
